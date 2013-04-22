@@ -57,7 +57,7 @@ class Mplayer2 < Formula
   homepage 'http://mplayer2.org'
 
   depends_on 'pkg-config' => :build
-  depends_on 'python3' => :build
+  #depends_on 'python3' => :build
   depends_on DocutilsInstalled.new => :build
 
   depends_on 'libbs2b'
