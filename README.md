@@ -1,22 +1,23 @@
 homebrew-mplayer2
 =================
 
-A centralized repository for mplayer2 related brews.
+This is my fork of pigoz's mplayer2 formule, whitout install python3, because i'm using pythonbrew.
 
 Usage
 -----
 
  *  make sure you have Homebrew 0.9
- *  `brew tap pigoz/mplayer2`
+ *  `brew tap twlz0ne/mplayer2`
+ *  `ln -s ~/.pythonbrew/pythons/Python-3.3.0 /usr/local/Cellar/Python-3.3.0`
 
 To install with FFmpeg (default):
- *  `brew install --HEAD pigoz/mplayer2/mplayer2`
+ *  `brew install --HEAD twlz0ne/mplayer2/mplayer2`
 
 If you want to use libav instead of FFmpeg:
- *  `brew install --HEAD pigoz/mplayer2/libav`: since brew will error out on
+ *  `brew install --HEAD twlz0ne/mplayer2/libav`: since brew will error out on
     mplayer2's installation because libav is a head only formula. Just
     install it manually.
- *  `brew install --HEAD pigoz/mplayer2/mplayer2 --with-libav`
+ *  `brew install --HEAD twlz0ne/mplayer2/mplayer2 --with-libav`
 
 To update the tapped formulae from this repository use `brew update`.
 
